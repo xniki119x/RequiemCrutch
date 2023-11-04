@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "f1cont.niki119.requiemcrutch.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+    "IdentifierMixin"
+  ],
+	"client": [
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

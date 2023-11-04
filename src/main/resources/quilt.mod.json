@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "f1cont.niki119",
+		"id": "requiemcrutch",
+		"version": "${version}",
+		"metadata": {
+			"name": "RequiemCrutch",
+			"description": "Requiem crutch, fix crush with render armor.",
+			"contributors": {
+				"Your name here": "niki119"
+			},
+			"contact": {
+				"homepage": "https://f1cont.com",
+				"issues": "https://github.com/xniki119x/requiemcrutch/issues",
+				"sources": "https://github.com/xniki119x/requiemcrutch"
+			},
+			"icon": "assets/requiemcrutch/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "f1cont.niki119.requiemcrutch.RequiemCrutch"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.2"
+			}
+		]
+	},
+	"mixin": "requiemcrutch.mixins.json"
+}
